@@ -1,6 +1,8 @@
 #include <avr/sleep.h>
 #include <avr/interrupt.h>
 
+//https://makersportal.com/blog/2018/5/19/attiny85-arduino-board-how-to-flash-the-arduino-bootloader-and-run-a-simple-sketch
+
 const int inputPin = 1; // PB1 - ورودی تحریک
 const int relayPin = 3; // PB3 - خروجی رله
 
